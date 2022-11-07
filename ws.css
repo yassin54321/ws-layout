@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+
+
+::selection {
+    background-color: #00B39B
+}
+
+p::selection {
+    color: white;
+}
+
+#logo {
+    width: 268px;
+    height: 68px;
+    margin-left: 250px;
+    margin-right: 500px;
+}
+
+li {
+    list-style: none;
+}
+
+.submenu {
+    margin-left: -110px;
+    position: absolute;
+    display: none;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #ABABAB;
+    width: 180px;
+    height: 220px;
+    box-shadow: 0 5px 10px 0 #d3cfc9;
+    background-color: white;
+}
+
+nav {
+    background-color: white;
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+}
+
+.mainmenu {
+    display: flex;
+    margin-left: -80px;
+    margin-right: 280px;
+}
+
+.mainmenuitem {
+    margin-left: 20px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ABABAB;
+}
+
+.mainmenuitem:hover,
+.submenuitem:hover {
+    cursor: pointer;
+    color: rgb(0, 179, 155);
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.mainmenuitem:hover .submenu {
+    display: block;
+}
+
+.submenuitem {
+    padding: 12px 16px 12px 16px;
+    margin-left: -40px;
+}
+
+.submenuitem:hover {
+    background-color: #F6F8F8;
+}
+
+.title {
+    text-align: center;
+    margin-top: 33px;
+}
+
+.title h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 33px;
+    font-weight: 300;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    margin-top: 30px;
+}
+
+.para {
+    display: flex;
+    width: 1015px;
+    margin-left: 250px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgb(116, 116, 116);
+    margin-top: 40px;
+}
+
+p {
+    width: 477.5px;
+}
+
+.p2 {
+    margin-left: 25px;
+}
+
+.servicemenu {
+    display: flex;
+    margin-top: 100px;
+    margin-top: 80px;
+}
+
+.servicemenupatients {
+    border-radius: 10px;
+    background-color: #00CCB1;
+    width: 311.625px;
+    height: 345px;
+    margin-left: 250px;
+}
+
+.servicemenudoctors {
+    border-radius: 10px;
+    background-color: #3D83DF;
+    width: 311.625px;
+    height: 345px;
+    margin-left: 20px;
+}
+
+.servicemenuclinics {
+    border-radius: 10px;
+    background-color: #323D49;
+    width: 311.625px;
+    height: 345px;
+    margin-left: 30px;
+}
+
+.servicemenupatients h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.servicemenupatients h2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    width: 247.625px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+.servicemenudoctors h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.servicemenudoctors h2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    width: 247.625px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+.servicemenuclinics h1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 33.8px;
+    color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 5px;
+}
+
+.servicemenuclinics h2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28.8px;
+    color: rgb(255, 255, 255);
+    width: 247.625px;
+    margin-left: 30px;
+    margin-top: -15px;
+}
+
+select {
+    margin-top: 60px;
+}
+
+.selectpatients {
+
+    border: none;
+    background-color: #00CCB1;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    width: 172.8px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.selectdoctors {
+    border: none;
+    background-color: #3D83DF;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    width: 172.8px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.selectclinics1 {
+    border: none;
+    background-color: #323D49;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    width: 193.6px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.selectclinics2 {
+    border: none;
+    background-color: #323D49;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 19.2px;
+    font-weight: 400;
+    line-height: 24.96px;
+    width: 247.625px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.imgpatients {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.imgdoctors {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.imgclinics {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+option {
+    background-color: white;
+}
+
+.logoo {
+    height: 19px;
+    width: 19px;
+    margin-top: 16px;
+    margin-right: 10px;
+}
+
+.tit {
+    margin-right: 120px;
+    margin-top: 40px;
+    font-family: "Work Sans", Arial, sans-serif;
+    margin-left: 250px;
+    color: rgb(0, 179, 155);
+    height: 33.8px;
+    font-size: 15px;
+}
+
+.dis {
+    display: flex;
+    width: 100px;
+    margin-right: 80px;
+}
+
+.parlog {
+    margin-top: 50px;
+}
+
+.par {
+    font-family: Roboto, Arial, sans-serif;
+    height: 20px;
+}
+
+.all {
+    display: flex;
+}
+
+.logooo {
+    margin-top: 20px;
+}
+
+#gipo {
+    margin-right: 15px;
+}
+
+.title2 {
+    margin-top: -13px;
+}
+
+.lol {
+    height: 300px;
+    width: 450px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.lol1 {
+    height: 617px;
+    background-color: #D5F5F5;
+    margin-top: 50px;
+    display: flex;
+}
+
+.lol2 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 44.2px;
+    color: rgb(0, 179, 155);
+    width: 477.5px;
+    margin-left: 250px;
+    padding-top: 70px;
+}
+
+.lol3 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+    width: 400px;
+    margin-left: 250px;
+
+}
+
+.lea {
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 50px;
+    background-color: white;
+    height: 250px;
+    width: 232px;
+}
+
+.lead {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+}
+
+.leade {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-left: -125px;
+}
+
+.amg {
+    margin-top: 25px;
+}
+
+.lea1 {
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-color: white;
+    height: 250px;
+    width: 232px;
+}
+
+.lead1 {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 31.2px;
+    color: rgb(0, 179, 155);
+}
+
+.leade1 {
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    color: rgb(116, 116, 116);
+    text-align: center;
+    margin-left: -125px;
+}
+
+.amg1 {
+    margin-top: 50px;
+}
+
+.leader {
+    display: flex;
+}
+
+.leaa {
+    margin-right: 20px;
+}
+
+.improve {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.imp {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color: rgb(0, 179, 155);
+}
+
+.impr {
+    margin-left: 500px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(116, 116, 116);
+
+}
+
+.box {
+
+    border-radius: 5px;
+    height: 350px;
+    width: 311px;
+    border: 2px #F0F8FF solid;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.but {
+    display: flex;
+}
+
+.but1 {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 70px;
+}
+
+.but2 {
+    display: flex;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+
+button {
+    height: 30px;
+    width: 104px;
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.war {
+
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(116, 116, 116);
+    margin-left: 20px;
+
+}
+.butt{
+    height: 40px;
+    width: 211px;
+    background-color: #3d83df;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 43%;
+    margin-top: 15px;
+}
+.butto{
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 12px;
+    color: rgb(255, 255, 255);
+    margin-left: -140px;
+
+}
+.soun{
+    margin-top: 80px;
+    font-family:"Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 39px;
+    color:  rgb(51, 51, 51);
+    text-align: center;
+}
+.foot{
+
+    text-align: center;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15.6px;
+    color:rgb(171, 171, 171);
+width:1512px ;
+}
